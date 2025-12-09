@@ -309,3 +309,179 @@ color: #25797c ;
   
   
 }
+
+/* media */
+
+
+@media (max-width: 992px) {
+  
+  .container img {
+    margin-left: 40px;
+  }
+
+  .icon-btn {
+    margin-right: 40px;
+  }
+
+  .hero-container {
+    height: auto;
+    padding: 120px 20px 40px;
+  }
+
+  .hero-text p,
+  .section4 p {
+    width: 100%;
+  }
+
+  .hero-image img,
+  .section4 img {
+    width: 450px;
+  }
+
+  .books-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .book-card {
+    width: calc(33.33% - 20px);
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  
+  .nav {
+    padding: 10px 15px;
+  }
+
+  .container img {
+    margin-left: 0;
+  }
+
+  .icon-btn {
+    margin-right: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+ 
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-text p {
+    margin: 20px auto;
+  }
+
+  .hero-image img {
+    width: 350px;
+  }
+
+ 
+  .section3 {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  .section3 > div {
+    width: calc(50% - 10px);
+  }
+
+
+  .section4 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .aboutus {
+    max-width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .section4 img {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+ 
+  .book-card {
+    width: calc(50% - 20px);
+  }
+}
+
+
+@media (max-width: 576px) {
+
+ 
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+
+  .hero-container {
+    width: 100%;
+    margin: 0;
+    padding: 110px 15px 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .hero-image img {
+    width: 260px;
+  }
+
+  .section3 {
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+
+  .section3 > div {
+    width: 100%;
+  }
+
+  .section4 p {
+    font-size: 14px;
+  }
+
+  
+  .books-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .book-card {
+    width: 100%;
+  }
+}
