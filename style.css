@@ -121,3 +121,191 @@ height: 650px;
 .highlight {
     color: #25797c;
 }
+
+/*
+*/
+
+
+/* section 3*/
+
+.section3{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap :90px;
+    padding: 60px 100px;
+   
+   
+} 
+
+.section3 > div{
+
+ text-align: center;
+ padding: 20px;
+ border: 2px solid #96d6d8;
+ box-shadow: 0 0 12px #96d6d8; 
+ 
+ 
+ 
+ 
+}
+
+.section3 img{
+   
+width: 40px;
+height: 40px;
+color: #25797c ;
+
+}
+
+
+.parts{
+   border: 2px solid #96d6d8;
+    box-shadow: 0 0 12px #96d6d8;  
+    
+}
+
+
+
+/*
+*/
+
+
+/* section 4*/
+.section4{
+
+    width: 90%;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
+.section4 h2{
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.section4 button{
+     background-color: #25797c;
+    border: none;
+    padding: 12px 30px;
+    margin-top: 30px;
+    
+    
+}
+
+.section4 p{
+
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 550px;
+
+
+}
+.section4 button a{
+    color: white;
+}
+.section4 image{
+     width: 600px;
+    flex: 50%;
+  
+}
+
+.aboutus{
+    max-width: 50%;
+    flex: 50%;
+    padding-left: 50px;
+}
+
+.section4 img{
+    width: 600px;
+    flex: 50%;
+    margin: 20px;
+ 
+    
+}
+/* section 5*/
+
+.featured-section {
+  text-align: center;
+  padding: 60px 0;
+  margin-bottom: 5px;
+  padding-top: 30px;
+  
+}
+
+.featured-section h2 {
+  
+  font-size: 30px;
+  margin-bottom: 70px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+.books-container {
+  display: flex;
+  gap: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.book-card {
+ 
+  padding: 15px;
+  border: 1px solid #949393;
+  
+  
+}
+
+
+.book-card img {
+  width: 100%;
+  height: 230px;
+  
+ 
+}
+
+.book-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+
+
+.book-card p {
+  color: #25797c;
+  font-size: 14px;
+  
+}
+
+.price {
+  display: block;
+  margin: 10px 0;
+  color: #25797c;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.book-card button {
+  background: white;
+  padding: 8px 15px;
+  border: 2px solid #25797c;
+  
+  
+}
