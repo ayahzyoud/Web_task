@@ -75,3 +75,24 @@ height: 650px;
     background-repeat: no-repeat;
     
 }
+
+.hero-text{
+    max-width: 50%;
+    flex: 50%;
+}
+
+.hero-text h1{
+   
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.hero-text p{
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 550px;
+}
