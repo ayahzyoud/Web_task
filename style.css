@@ -96,3 +96,12 @@ height: 650px;
     margin-top: 30px;
     width: 550px;
 }
+
+.hero-text button{
+    background-color: #25797c;
+    border: none;
+    padding: 12px 30px;
+    margin-top: 40px;
+    
+
+}
