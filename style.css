@@ -1,0 +1,20 @@
+
+/* section one header */
+
+.nav{
+    
+    display: flex;
+    position: fixed;
+    top:0;
+    padding: 15px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid #96d6d8;
+    box-shadow: 0 0 12px #96d6d8;
+    
+    
+}
