@@ -237,3 +237,75 @@ color: #25797c ;
  
     
 }
+/* section 5*/
+
+.featured-section {
+  text-align: center;
+  padding: 60px 0;
+  margin-bottom: 5px;
+  padding-top: 30px;
+  
+}
+
+.featured-section h2 {
+  
+  font-size: 30px;
+  margin-bottom: 70px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+.books-container {
+  display: flex;
+  gap: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.book-card {
+ 
+  padding: 15px;
+  border: 1px solid #949393;
+  
+  
+}
+
+
+.book-card img {
+  width: 100%;
+  height: 230px;
+  
+ 
+}
+
+.book-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+
+
+.book-card p {
+  color: #25797c;
+  font-size: 14px;
+  
+}
+
+.price {
+  display: block;
+  margin: 10px 0;
+  color: #25797c;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.book-card button {
+  background: white;
+  padding: 8px 15px;
+  border: 2px solid #25797c;
+  
+  
+}
