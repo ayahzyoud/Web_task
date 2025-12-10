@@ -105,3 +105,19 @@ height: 650px;
     
 
 }
+
+.hero-text button a{
+    color: white;
+   
+}
+
+
+.hero-image img{
+    width: 600px;
+    flex: 50%;
+ 
+    
+}
+.highlight {
+    color: #25797c;
+}
