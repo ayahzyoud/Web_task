@@ -121,3 +121,48 @@ height: 650px;
 .highlight {
     color: #25797c;
 }
+
+/*
+*/
+
+
+/* section 3*/
+
+.section3{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap :90px;
+    padding: 60px 100px;
+   
+   
+} 
+
+.section3 > div{
+
+ text-align: center;
+ padding: 20px;
+ border: 2px solid #96d6d8;
+ box-shadow: 0 0 12px #96d6d8; 
+ 
+ 
+ 
+ 
+}
+
+.section3 img{
+   
+width: 40px;
+height: 40px;
+color: #25797c ;
+
+}
+
+
+.parts{
+   border: 2px solid #96d6d8;
+    box-shadow: 0 0 12px #96d6d8;  
+    
+}
+
